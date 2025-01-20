@@ -3,7 +3,7 @@ import { createClient, RedisClientType } from 'redis';
 import axios from 'axios';
 import { CreateBibliaDto } from './dto/create-biblia.dto';
 import { UpdateBibliaDto } from './dto/update-biblia.dto';
-import { Biblia, BibliaResponse } from './interfaces';
+import { Biblia, BibliaResponse } from './interfaces/biblia.interface';
 
 @Injectable()
 export class BibliasService implements OnModuleInit {

@@ -1,6 +1,6 @@
 import { Controller, Get, Param } from '@nestjs/common';
 import { BibliasService } from './biblias.service';
-import { Biblia, BibliaResponse } from './interfaces';
+import { Biblia, BibliaResponse } from './interfaces/biblia.interface';
 
 @Controller('biblias')
 export class BibliasController {
