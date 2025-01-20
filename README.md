@@ -15,7 +15,7 @@ API REST construida con NestJS que consume la Rick and Morty API y utiliza Redis
 
 ## Descripción
 
-Esta aplicación proporciona endpoints para obtener información sobre personajes de Rick and Morty, implementando un sistema de caché con Redis para mejorar el rendimiento.
+Esta aplicación proporciona endpoints para obtener información sobre personajes de Rick and Morty, implementando un sistema de caché con Redis para mejorar el rendimiento. El proyecto está construido con NestJS, utilizando Fastify como servidor, Axios para las peticiones HTTP y Redis para el almacenamiento en caché.
 
 ## Requisitos Previos
 
